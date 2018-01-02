@@ -3,7 +3,37 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telefon.Core", "Telefon.Core\Telefon.Core.csproj", "{33734928-35CD-4CB0-AA8C-A6A61BE2E96A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telefon.BLL", "Telefon.BLL\Telefon.BLL.csproj", "{8376D4B2-45D7-45A4-A13B-B831578B8CFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telefon.Entities", "Telefon.Entities\Telefon.Entities.csproj", "{05F3FC81-1A83-4B33-90BB-F245D12B3188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelefonWFUI", "TelefonWFUI\TelefonWFUI.csproj", "{32799792-4EAB-4C57-9138-697EC89BFE0F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33734928-35CD-4CB0-AA8C-A6A61BE2E96A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33734928-35CD-4CB0-AA8C-A6A61BE2E96A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33734928-35CD-4CB0-AA8C-A6A61BE2E96A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33734928-35CD-4CB0-AA8C-A6A61BE2E96A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8376D4B2-45D7-45A4-A13B-B831578B8CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8376D4B2-45D7-45A4-A13B-B831578B8CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8376D4B2-45D7-45A4-A13B-B831578B8CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8376D4B2-45D7-45A4-A13B-B831578B8CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F3FC81-1A83-4B33-90BB-F245D12B3188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F3FC81-1A83-4B33-90BB-F245D12B3188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F3FC81-1A83-4B33-90BB-F245D12B3188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F3FC81-1A83-4B33-90BB-F245D12B3188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32799792-4EAB-4C57-9138-697EC89BFE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32799792-4EAB-4C57-9138-697EC89BFE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32799792-4EAB-4C57-9138-697EC89BFE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32799792-4EAB-4C57-9138-697EC89BFE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
